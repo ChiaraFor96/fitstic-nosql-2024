@@ -7,7 +7,7 @@
 - Answer "Yes" when prompted
 - Wait for the process to finish and close the PowerShell
 - Reopen the power shell as adminstrator and run the following command:
-    > choco install -y docker docker-desktop git nodejs robo3t
+    > choco install -y docker docker-desktop git nodejs studio3t
     - N.B.: If you have __already installed__ one of the softwares just delete it name from the instruction
 - Wait for the process to finish and restart the pc (if the process is locked sometimes press enter)
 - Accept docker term of use and wait it starts
