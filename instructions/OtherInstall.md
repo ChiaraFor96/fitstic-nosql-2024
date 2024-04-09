@@ -19,7 +19,7 @@
 - Install NodeJS (tested with versions 16.13.2 and 17.3.0)
     - https://nodejs.org/en/download/
     - Check that NodeJS works by opening a *new* terminal (`cmd.exe` in Windows or `/bin/bash` in Linux) and running `node --version` (e.g., the output should be `v17.3.1`)
-- Install Robo 3T (not Studio 3T): https://robomongo.org/download
+- Install Studio 3T: https://studio3t.com/download/
 - Install Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 # [Deprecated] Setting up the old software stack
