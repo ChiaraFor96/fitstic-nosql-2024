@@ -6,7 +6,7 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
 - What we need?
     - Docker
     - NodeJS
-    - Robo3t
+    - Studio3T
     - Git
 - How to install?
     - [Quick installation (only for Windows)](instructions/QuickInstall.md).
