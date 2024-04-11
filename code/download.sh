@@ -1,26 +1,26 @@
 #!/bin/bash
 set -e
 cd mongodb/data
-if test -f "games.bson"; then
+if [ -f "games.bson" ] && [ $(wc -l < "games.bson") -gt 100 ]; then
     echo "games.bson exists"
 else
-    curl -o games.bson http://big.csr.unibo.it/projects/nosql-datasets/games.bson
+    curl -L -o games.bson http://big.csr.unibo.it/projects/nosql-datasets/games.bson
 fi
-if test -f "restaurants.bson"; then
+if [ -f "restaurants.bson" ] && [ $(wc -l < "restaurants.bson") -gt 100 ]; then
     echo "restaurants.bson exists"
 else
-    curl -o restaurants.bson http://big.csr.unibo.it/projects/nosql-datasets/restaurants.bson
+    curl -L -o restaurants.bson http://big.csr.unibo.it/projects/nosql-datasets/restaurants.bson
 fi
-if test -f "yelp-business.bson"; then
+if [ -f "yelp-business.bson" ] && [ $(wc -l < "yelp-business.bson") -gt 100 ]; then
     echo "yelp-business.bson exists"
 else
-    curl -o yelp-business.bson http://big.csr.unibo.it/projects/nosql-datasets/yelp-business.bson
+    curl -L -o yelp-business.bson http://big.csr.unibo.it/projects/nosql-datasets/yelp-business.bson
 fi
 ls -las
 cd ../../mysql/data
-if test -f "foodmart.sql"; then
+if  [ -f "foodmart.sql" ] && [ $(wc -l < "foodmart.sql") -gt 100 ]; then
     echo "foodmart.sql exists"
 else
-    curl -o foodmart.sql http://big.csr.unibo.it/projects/nosql-datasets/foodmart.sql
+    curl -L -o foodmart.sql http://big.csr.unibo.it/projects/nosql-datasets/foodmart.sql
 fi
 cd ../../
