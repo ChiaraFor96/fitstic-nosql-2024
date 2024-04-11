@@ -2,7 +2,7 @@ cd mongodb\data
 IF EXIST "games.bson" (
   echo games.bson exists
 ) ELSE (
-  curl -o games.bson http://big.csr.unibo.it/projects/nosql-datasets/games.bson
+  curl -o -L games.bson http://big.csr.unibo.it/projects/nosql-datasets/games.bson
 )
 
 IF EXIST "restaurants.bson" (
@@ -14,13 +14,13 @@ IF EXIST "restaurants.bson" (
 IF EXIST "yelp-business.bson" (
   echo yelp-business.bson exists
 ) ELSE (
-  curl -o yelp-business.bson http://big.csr.unibo.it/projects/nosql-datasets/yelp-business.bson
+  curl -o -L yelp-business.bson http://big.csr.unibo.it/projects/nosql-datasets/yelp-business.bson
 )
 
 cd ..\..\mysql\data
 IF EXIST "foodmart.sql" (
   echo foodmart.sql exists
 ) ELSE (
-  curl -o foodmart.sql http://big.csr.unibo.it/projects/nosql-datasets/foodmart.sql
+  curl -o -L foodmart.sql http://big.csr.unibo.it/projects/nosql-datasets/foodmart.sql
 )
 cd ..\..
