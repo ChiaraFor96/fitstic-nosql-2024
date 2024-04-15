@@ -78,11 +78,11 @@ If Windows complains about:
     - If some database is not up, because we start only some of them the test of the started databases must PASS, the others not.
 
 ## (Tentative) Calendar
-- Lecture 01 (4h): Introduction to NoSQL databases (until slide 48) and start software installation
-- Lecture 02 (4h): Introduction to NoSQL databases and software installation, Cassandra
-- Lecture 03 (4h): [Test teoria](https://docs.google.com/forms/d/e/1FAIpQLSeTSG2jmfWMqMkOz8F7mXLBDmpOwj2g9sP8IwEnAc1jlIuU4w/viewform?usp=sf_link), Cassandra
-- Lecture 04 (4h): Cassandra
-- Lecture 05 (4h): [Test Cassandra](https://docs.google.com/forms/d/e/1FAIpQLSeZOYSrdDgo_Q-S0LSoCsSJTLfm28ADK95_FM0PqRfn81_Ofw/viewform), Neo4J
-- Lecture 06 (4h): Neo4J, MongoDB Find
-- Lecture 07 (4h): [Test Neo4J](https://docs.google.com/forms/d/e/1FAIpQLSewuBHzGKbxd93FYckcjFCidFhqYjEpOgRLsgxm6eeJWYlqtA/viewform), MongoDB Find
-- Lecture 08 (2h): [Test MongoDB](https://docs.google.com/forms/d/1Rr714lpVjbN2j_CXrb9XS0fodF19d5ZisP6HU_1ltQk/edit#responses), Approfondimenti Mongo
+- Lecture 09/04/2024 (9-13): Introduction to NoSQL databases (until slide 48) and start software installation
+- Lecture 11/04/2024 (9-13): Introduction to NoSQL databases and software installation, Cassandra
+- Lecture 16/04/2024 (9-13): [Test teoria](https://docs.google.com/forms/d/e/1FAIpQLScrbaTOh-Ga03Hj0XMFn1rUyvBDSW38CCAOYPdYAUk7Cj8S3w/viewform), Cassandra
+- Lecture 17/04/2024 (9-13): Cassandra
+- Lecture 22/04/2024 (9-13): [Test Cassandra](https://docs.google.com/forms/d/e/1FAIpQLSdlTx5rmdUhqjFuRIInEL-P-Oa2hBOWnPAwMQm75oiaU5YAvw/viewform), Neo4J
+- Lecture 23/04/2024 (9-13): Neo4J, MongoDB Find
+- Lecture 30/04/2024 (9-13): [Test Neo4J](https://docs.google.com/forms/d/e/1FAIpQLSfmmgYyoP0QyrN8099SNOyS-Y1J-DCoguGeV3tIVxvkH0N7dw/viewform), MongoDB Find
+- Lecture 02/05/2024 (10-12): [Test MongoDB](https://docs.google.com/forms/d/e/1FAIpQLSfk6X738YlQb0GlXlsWqKDVE8SGJYdg3bx9FfO7B5kyjYZ1Lw/viewform), Approfondimenti Mongo
