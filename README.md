@@ -48,6 +48,11 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
         > 
             chmod +x *.sh
             sh start2.sh
+
+        in Linux
+        > 
+            sudo usermod -a -G docker $(whoami)
+            logout and login
               
     __In both cases when you launch "start" script you can specify the name of the databases for reduce the number of executed processes.__
     - Cassandra:
