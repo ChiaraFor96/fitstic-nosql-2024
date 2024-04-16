@@ -44,6 +44,10 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
             cd Documents/fitstic-nosql-2024
             cd code
             sh start.sh
+        if you have problems please try with 
+        > 
+            chmod +x *.sh
+            sh start2.sh
               
     __In both cases when you launch "start" script you can specify the name of the databases for reduce the number of executed processes.__
     - Cassandra:
