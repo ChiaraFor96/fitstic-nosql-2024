@@ -44,7 +44,7 @@ NoSQL (Not Only SQL) exercises against relational, key-value, document, graph, a
             cd Documents/fitstic-nosql-2024
             cd code
             sh start.sh
-    
+              
     __In both cases when you launch "start" script you can specify the name of the databases for reduce the number of executed processes.__
     - Cassandra:
         - .\start.bat cassandra cassandra-seed
@@ -93,6 +93,8 @@ If Windows complains about:
             cd Documents/fitstic-nosql-2024
             cd code
             sh clean.sh
+
+    And retry with the start process (contact me at chiara.forresi@unibo.it for errors we can not manage to solve during the lectures).
 
 ## (Tentative) Calendar
 - Lecture 09/04/2024 (9-13): Introduction to NoSQL databases (until slide 48) and start software installation
