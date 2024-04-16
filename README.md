@@ -77,6 +77,23 @@ If Windows complains about:
 
     - If some database is not up, because we start only some of them the test of the started databases must PASS, the others not.
 
+## In case of errors
+- Open a new terminal (cmd.exe in Windows and Terminal in Mac/Linux) and run the following commands:
+    - Windows
+        >
+            git stash
+            git pull
+            cd Documents\fitstic-nosql-2024
+            cd code
+            .\clean.bat
+    - Linux / Mac
+        >
+            git stash
+            git pull
+            cd Documents/fitstic-nosql-2024
+            cd code
+            sh clean.sh
+
 ## (Tentative) Calendar
 - Lecture 09/04/2024 (9-13): Introduction to NoSQL databases (until slide 48) and start software installation
 - Lecture 11/04/2024 (9-13): Introduction to NoSQL databases and software installation, Cassandra
