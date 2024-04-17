@@ -2,7 +2,7 @@
 git pull
 set -xo
 
-./build.sh
+./build2.sh
 ./download.sh
 
 if [ -f .env ]; then
